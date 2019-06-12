@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test Stage') {
             steps {
-                echo "Testing stuff"
+                sh 'mvn test -Dtest=testClass1'
             }
         }
     }
