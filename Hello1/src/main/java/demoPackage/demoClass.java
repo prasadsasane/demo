@@ -3,11 +3,12 @@ package demoPackage;
 public class demoClass {
     public static void main(String args[])
     {
-        System.out.println("Hello...!");
+        System.out.println("Hello..!!!!!!!!!!!");
     }
     public static String getMessage(){
-        return "hello world ..!";
-    }
+        return "hello world ...!!";
+
+            }
 
    /* public static int funDemo()
     {
